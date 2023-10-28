@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter the number of Element in the Array: ");
+    scanf("%d",&n);
+    int arr[n];
+    printf("Enter the element of the array: ");
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    printf("Element of the array: ");
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+
+    return 0;
+}
